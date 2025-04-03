@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_cta_ctas",
+  "info": {
+    "displayName": "cta",
+    "icon": "volumeUp"
+  },
+  "options": {},
+  "attributes": {
+    "ctaHeading": {
+      "type": "string",
+      "required": true
+    },
+    "ctaSubHeading": {
+      "type": "text"
+    },
+    "ctaBgColor": {
+      "type": "string",
+      "required": true
+    },
+    "ctaBtnText": {
+      "type": "string",
+      "required": true
+    },
+    "ctaBtnUrl": {
+      "type": "string",
+      "required": true
+    },
+    "ctaIsExternal": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "ctaBtnBgColor": {
+      "type": "string",
+      "required": true
+    },
+    "ctaImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
